@@ -15,6 +15,6 @@ spec:
     spec:
       containers:
       - name: mycontainer
-        image: mkumar060/my-pipeline   # replace with your Docker-image pushed on Dockerhub
+        image: mkumar060/new-pipeline   # replace with your Docker-image pushed on Dockerhub
         ports:
         - containerPort: 8080
